@@ -14,7 +14,6 @@ import lombok.Getter;
 import lombok.extern.log4j.Log4j2;
 
 @Getter
-@SuppressWarnings("unchecked")
 @Component
 @Log4j2
 public class RepositoryBaseImpl<T extends EntityBase<ID>, ID extends Serializable> extends SimpleJpaRepository<T, ID>

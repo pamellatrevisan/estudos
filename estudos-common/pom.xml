@@ -13,11 +13,13 @@
   <artifactId>estudos-common</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>estudos-common</name>
-  <description>Projeto comum de estudos</description>
+  <description>Projeto comum para microserviços de estudos</description>
 
   <properties>
     <java.version>11</java.version>
     <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
   <dependencies>
